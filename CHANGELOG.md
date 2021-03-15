@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v1.5.117
+## (2021-03-15)
+
+* Use moduleIds: 'natural' in webpack config to keep js files in arm64 and x64 mac builds identical [Alexis Svinartchouk]
+* Update electron-builder to 22.10.5 [Alexis Svinartchouk]
+* Update spectron to v13 [Alexis Svinartchouk]
+* Update dependencies, use aws4-axios@2.2.1 to avoid adding more dependiencies [Alexis Svinartchouk]
+* Update scripts to build universal mac dmgs on the ci [Alexis Svinartchouk]
+* Fix beforeBuild.js script to also work on mac [Alexis Svinartchouk]
+* Support building universal dmgs (x64 and arm64) for mac [Alexis Svinartchouk]
+* Update electron-builder to 22.10.4 [Alexis Svinartchouk]
+* Fix titlebar z-index [Alexis Svinartchouk]
+* Explicitly set contextIsolation to false [Alexis Svinartchouk]
+* Update electron from 9.4.1 to 11.2.3 [Alexis Svinartchouk]
+
+<details>
+<summary> Update etcher-sdk from 6.1.0 to 6.1.1 [Alexis Svinartchouk] </summary>
+
+> ## etcher-sdk-6.1.1
+> ### (2021-02-10)
+> 
+> 
+> <details>
+> <summary> Update node-raspberrypi-usbboot from 0.2.10 to 0.2.11 [Alexis Svinartchouk] </summary>
+> 
+>> ### node-raspberrypi-usbboot-0.2.11
+>> #### (2021-02-10)
+>> 
+>> * Update @balena.io/usb from 1.3.12 to 1.3.14 [Alexis Svinartchouk]
+>> 
+> </details>
+> 
+> 
+</details>
+
 # v1.5.116
 ## (2021-02-03)
 
