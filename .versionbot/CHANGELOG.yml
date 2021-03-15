@@ -1,4 +1,98 @@
 - commits:
+    - subject: >-
+        Use moduleIds: 'natural' in webpack config to keep js files in arm64 and
+        x64 mac builds identical
+      hash: e446afec0cc7fa6cf4bf455ace91e992be07e06a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Update electron-builder to 22.10.5
+      hash: 1cff92d1a4dc01211c79e9576b462ea6c0462f84
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Update spectron to v13
+      hash: b7ffce8578552feff83df62687454d0e13c87e98
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: >-
+        Update dependencies, use aws4-axios@2.2.1 to avoid adding more
+        dependiencies
+      hash: da9591fa3fdc75fbd7a088dada84d362a2935ae3
+      body: |
+        Also filter out dmg-license dependencies from the shrinkwrap file
+        aws4-axios@2.3.0 brings in react-native, see aws/aws-sdk-js-v3#1797
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Update scripts to build universal mac dmgs on the ci
+      hash: 22ab13ac2f9eac471226690c3be1581eb0030582
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Fix beforeBuild.js script to also work on mac
+      hash: c3eb8c7b5603129ab12e38dda6f34bfb752034ef
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Support building universal dmgs (x64 and arm64) for mac
+      hash: 0849d4f435ba0e5612b6837996b18ab148346f07
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Update electron-builder to 22.10.4
+      hash: 1dba3ae19b324b5a45541002e91c0e5fd93c92e3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Fix titlebar z-index
+      hash: f33f2e3771f0ea08424bb8169d596198a1c09035
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Explicitly set contextIsolation to false
+      hash: e56aaed9735cc22b28317455a4dc81d86d7746ab
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Update electron from 9.4.1 to 11.2.3
+      hash: a4659f038eb8ed0aa6ffb7b2e2c22ff5d29250d3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+    - subject: Update etcher-sdk from 6.1.0 to 6.1.1
+      hash: cd462818da6f812fcec547e933964697bfd6847e
+      body: |
+        Update etcher-sdk from 6.1.0 to 6.1.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alexis Svinartchouk
+  version: 1.5.117
+  date: 2021-03-15T18:27:08.159Z
+- commits:
     - subject: Only cleanup temporary decompressed files in child-writer
       hash: 48b5e8b9d90fdd9df98e099db1947bb6b2490a5a
       body: ''
